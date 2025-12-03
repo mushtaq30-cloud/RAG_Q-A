@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>RAG Q&A</title>
+  <style>
+    body{font-family:Inter,system-ui,Arial;padding:18px;max-width:900px;margin:auto}
+    input,textarea,button{width:100%;padding:8px;margin:6px 0;box-sizing:border-box}
+    .source{background:#f8f9fb;padding:8px;margin:6px 0;border-radius:6px}
+  </style>
+</head>
+<body>
+  <h1>RAG Q&A</h1>
+  <label>Question <input id="q" value="What is FastAPI?"/></label>
+  <button id="ask">Ask</button>
+  <h3>Answer</h3>
+  <pre id="answer">No answer yet</pre>
+  <h3>Sources</h3>
+  <div id="sources"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
