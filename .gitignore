@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# data files of the AI/RAG_Q&A project
+*/data
+
 # C extensions
 *.so
 
